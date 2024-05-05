@@ -149,6 +149,7 @@ def hangman():
         time.sleep(2)
         print("Your Score is= ",length,"/",length)
         percent = int((length / length) * 100)
+        outof=length
         time.sleep(2)
         mycursor = mydb.cursor()
         sql = "INSERT INTO Scores(Name,Score,Out_of,percentage) VALUES(%s,%s,%s,%s)"
