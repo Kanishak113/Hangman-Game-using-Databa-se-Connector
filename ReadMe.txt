@@ -1,3 +1,5 @@
+Required softwares : XAMPP , Maria DB, Pycharm
+
 Firstly You have to create a leaderboard database with a table named scores
 
 The coloumns of the table are :
